@@ -13,7 +13,7 @@ public class GestioneMain {
         for (int i = 0; i < arrCasuale.length; i++) {
 
 
-            arrCasuale[i] = random.nextInt(11);
+            arrCasuale[i] = random.nextInt(1,11);
 
         }
         System.out.println(Arrays.toString(arrCasuale));
@@ -21,7 +21,7 @@ public class GestioneMain {
 
         while (true) {
 
-            System.out.println("Inserisci la posizione dove inserire il nuovo numero");
+            System.out.println("Inserisci la posizione dove inserire il nuovo numero: ");
             int posizione = Integer.parseInt(sc.nextLine());
 
             if (posizione == 0) {
